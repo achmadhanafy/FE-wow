@@ -1,0 +1,230 @@
+.App {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+.container{
+  padding: 0px 10% 0px 10%;
+}
+.registerContent{
+  width: 400px;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(33, 33, 34, .5);
+}
+hr{
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 1px;
+  background: #C9C9C9;
+  margin-bottom: 30px;
+}
+th{
+  padding: 20px 30px 20px 30px;
+  color: #D60000;
+}
+td{
+  padding: 20px 30px 20px 30px;
+  border-top: 1px solid rgb(177, 177, 177);
+  border-bottom: 1px solid rgb(177, 177, 177);
+}
+.alert {
+  padding: 20px;
+  background-color: white;
+  color: #D60000;
+}
+.success {
+  padding: 20px;
+  background-color: white;
+  color: #00ee63;
+}
+.closebtn {
+  margin-left: 15px;
+  color: #D60000;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+.textColorRed{
+  color: #D60000;
+}
+
+.dropdown {
+  position:relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  border-radius: 20px;
+  background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.active{
+  color:#ff2424 ;
+  fill:#ff2424;
+}
+.svg:hover{
+  fill: rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.approve:hover{
+  background-color:#84ffd0 ;
+  border-radius: 16px ;
+}
+.cancel:hover{
+  background-color: #ffa3a3;
+  border-radius: 16px;
+}
+.font-roman{
+  font-family: 'Times New Roman';
+}
+.bookDetail{
+  width: 868px;
+}
+.formInput{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.landingContent{
+  width: 520px;
+}
+.bgPrimary{
+  background-color: #D60000;
+}
+.button{
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  width: 100%;
+}
+.buttonSecondary{
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  border-radius: 20px;
+  list-style: none;
+  outline: none;
+}
+.pagination > li > a{
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: white;
+  margin-right: 5px;
+  
+}
+.pagination > li > a:hover{
+  background-color:#D60000;
+  color: white;
+  font-weight: bold;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color:#D60000;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination > .active > a{
+  background-color:#D60000;
+  color: white;
+  font-weight: bold;
+}
+
+.tableFixHead {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+  .tableFixHead tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 50vh;
+}
+.tableFixHead thead tr {
+  display: block;
+}
+
+.tableFixHead th,
+.tableFixHead  td {
+   width: 200px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+
+
+
+
+
+/* .pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid black ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+} */
+
+
+
+
